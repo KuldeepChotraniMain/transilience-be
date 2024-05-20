@@ -13,4 +13,4 @@ def index():
 application.register_blueprint(api_blueprint, url_prefix='/api')
 
 if __name__ == "__main__":
-    application.run(debug=True, host="0.0.0.0", port=8000)
+    application.run(debug=False)
